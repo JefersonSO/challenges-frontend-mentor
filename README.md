@@ -1,2 +1,2 @@
 # challenges-frontend-mentor
-https://www.https://github.com/JefersonSO/challenges-frontend-mentor
+https://jefersonso.github.io/challenges-frontend-mentor/
