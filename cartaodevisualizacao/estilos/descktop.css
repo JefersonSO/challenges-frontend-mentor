@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@media screen and (orientation:landscape){
+    
+
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(245, 239, 230);
+    }
+    
+    div.card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: auto;
+        height: 450px;
+        width: 600px;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: white;
+
+    }
+
+    div.foto {
+        background: url(../images/image-product-desktop.jpg);
+        background-position: top center;
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: left;
+        
+    }
+
+    div.info {
+        padding: 20px;
+        color: rgb(94, 91, 91);
+        width: 50%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        float: right;
+        
+
+    }
+
+    div.info > h2 {
+        padding: 10px ;
+        font-size: 14px;
+        letter-spacing: 4px;
+    }
+
+    div.info > h1 {
+
+        padding: 10px;
+        font-family:'Fraunces', serif;
+        color: black;
+        font-size: 1.8em;
+    }
+
+    div.info > p {
+        padding:10px;
+        font-size: 0.9em;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    
+
+    div.preco > {
+        display: inline-block;
+        margin: 50px;
+    
+    
+    }
+
+    div.preco > p#atual {
+        display: inline;
+        color: rgb(60, 141, 110);
+        font-family: 'Fraunces', serif;
+        font-size: 2em;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    div.preco > p#antigo{
+        
+        float: right;
+        position: relative;
+
+        font-size: 15px;
+        text-decoration: line-through;
+        top: 10px;
+        right: 15%;
+        
+    
+    }
+
+    div.add_to_cart {
+        background-color: rgb(60, 141, 110);
+        position: relative;
+        height: 55px;
+        color: white;
+        
+        font-weight: 900;
+        border-radius: 10px;
+        padding: 30px;
+        margin: 20px 10px ;
+    }
+
+    div.add_to_cart > a{
+        position: relative;
+        bottom: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+
+    .material-symbols-outlined { position: relative;
+        top: 5px;
+        
+    }
+
+    div.add_to_cart > a > p{
+        color: white;
+        text-decoration: none;
+    }
+
+    div.add_to_cart:hover{
+        background-color: rgb(41, 87, 69);;
+        ;
+    }
+
+
+
+
+    .attribution {
+        position: relative;
+        top: 98vh;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 11px; text-align: center; }
+
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
+
+}

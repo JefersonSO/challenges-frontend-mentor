@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen {
+
+    body {
+        background-color: rgb(245, 239, 230);
+    }
+
+    section.card {
+
+        margin: auto;
+        width: 600px;
+        height: 450px;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        transition: 300ms;
+
+    }
+
+    div.img { 
+        width: 50%;
+        height: 100%;
+        background: url(../images/image-product-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+
+    
+}
