@@ -62,15 +62,20 @@ a .slc{
 
 
 
-h1 a {
-    color: white;
+h1 {
+        
     text-align: left;
     align-self: flex-start;
     margin-left: 24px;
     font-size: 22px;
     
-    text-decoration: none;
 }
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+
 
 h1 a:hover {
     color: hsl(178, 100%, 50%);
