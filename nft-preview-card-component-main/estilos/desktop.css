@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0D1A2D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+ 
+
+.conteiner {
+    width: 347px;
+    height: 595px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: start;
+    align-items: center;
+    background-color:hsl(216, 50%, 16%);
+    border-radius: 16px;
+    box-shadow: 0px 10px 20px 30px  #0C1729;
+}    
+
+.conteiner >.img{
+    width: 302px;
+    height: 302px;
+    background: url(../images/image-equilibrium.jpg);
+    background-size: cover;
+    margin: 24px;
+    border-radius: 10px;
+    
+}
+
+a .slc{
+    width: 302px;
+    height: 302px;
+    border-radius: 10px;
+}
+
+.conteiner >.img > a >.slc:hover  {
+    background: url(../images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsla(178, 100%, 50%, 0.555);
+    
+}
+
+
+
+h1 a {
+    color: white;
+    text-align: left;
+    align-self: flex-start;
+    margin-left: 24px;
+    font-size: 22px;
+    
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: hsl(178, 100%, 50%);
+} 
+
+.conteiner p#txt {
+    
+    color: hsl(215, 51%, 70%);
+    padding: 24px;
+    font-size: 18px;
+}
+
+.a {
+    width: 302px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.a p#eth {
+     margin: 0%;
+     color: hsl(178, 100%, 50%);
+}
+
+.a img {
+    margin-right: 5px;
+}
+
+hr {
+    width: 302px ;
+    border-color: rgba(255, 255, 255, 0.151);
+    margin: 15px;
+    
+   
+}
+
+.creator{
+    
+    width: 302px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.creator img {
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+     
+}
+
+
+
+.creator a{
+    text-decoration: none;
+    color: white;
+} 
+
+.creator a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+
+
+.attribution {
+    position: absolute;
+    top:95%;
+    font-size: 11px; text-align: center; }
+.attribution a { color: hsl(230, 8%, 71%); }

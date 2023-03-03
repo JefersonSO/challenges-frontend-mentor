@@ -107,7 +107,7 @@ div.options > div.icons > span > img#upload{
     box-shadow: 1px 1px 55px  rgba(0, 0, 0, 0.233);
 }
 
-.storage > p {
+.storage > h1 {
     width: 459px;
     font-size: 14px;
     font-weight: 400;
