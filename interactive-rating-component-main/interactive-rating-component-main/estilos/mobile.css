@@ -1,40 +1,42 @@
 @media screen and (orientation:portrait) {
     body{
-        background-color: aqua;
+        width: 98vw;
+        height: 98vh;
     }
 
     #caixa1{
       margin: auto;
       margin-left: 10px;
-      width: 100px;
-      height: 100px;
+      width: 350px;
+      height:350px;
     }
 
     #caixa2{
         margin: auto;
-        width: 100px;
-        height: 100px;
+        width: 350px;
+        height:350px;
       }
   
 }
 
 @media screen and (orientation:landscape){
     body {
-        background-color: blue;
+        width: 98vw;
+        height: 98vh;
 
     }
 
     #caixa1{
         margin: auto;
         margin-left: 10px;
-        width: 100px;
-        height: 100px;
+        width: 350px;
+        height: 350px;
       }
   
       #caixa2{
           margin: auto;
-          width: 100px;
-          height: 100px;
+          width: 350px;
+          height: 350px;
         }
     
 }
