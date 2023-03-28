@@ -1,42 +1,44 @@
 @media screen and (orientation:portrait) {
-    body{
-        width: 98vw;
-        height: 98vh;
+    html,body{
+        
+        width: 100vw;
+        height: 100vh;
     }
 
     #caixa1{
-      margin: auto;
-      margin-left: 10px;
-      width: 350px;
-      height:350px;
+      margin: 10%;
+      width: 340px;
+      height:340px;
     }
 
     #caixa2{
         margin: auto;
-        width: 350px;
-        height:350px;
+        width: 340px;
+        height:340px;
+    
       }
   
 }
 
 @media screen and (orientation:landscape){
-    body {
-        width: 98vw;
-        height: 98vh;
+    html,body {
+        width: 100vw;
+        height: 100vh;
 
     }
 
     #caixa1{
-        margin: auto;
+        margin: 10%;
+       
         margin-left: 10px;
-        width: 350px;
-        height: 350px;
+        width: 340px;
+        height: 340px;
       }
   
       #caixa2{
-          margin: auto;
-          width: 350px;
-          height: 350px;
+          margin: 10%;
+          width: 340px;
+          height: 340px;
         }
     
 }

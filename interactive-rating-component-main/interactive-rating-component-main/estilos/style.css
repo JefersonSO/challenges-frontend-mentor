@@ -17,6 +17,8 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     background-color: hsl(216, 12%, 8%);
@@ -28,7 +30,7 @@ body {
 div#caixa1 {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 10%;
     width: 414px;
     height: 414px;
     background-color:  hsl(213, 19%, 18%);
