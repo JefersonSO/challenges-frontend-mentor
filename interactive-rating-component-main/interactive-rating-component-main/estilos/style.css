@@ -36,6 +36,7 @@ div#caixa1 {
     background-color:  hsl(213, 19%, 18%);
     padding: 0px 30px;
     border-radius: 30px;
+    transition: 0.3s;
 
 }
 
@@ -80,6 +81,7 @@ div#caixa1 p{
     text-align: center;
     align-items: center;
     border: 0px;
+    color: white;
 }
 #numeros input:hover {
     background-color: hsl(25, 97%, 53%);
