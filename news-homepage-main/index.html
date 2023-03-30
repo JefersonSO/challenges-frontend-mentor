@@ -9,41 +9,50 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="estilos/mobile_style.css" media="All">
+  <link rel="stylesheet" href="estilos/desktop.css" media="screen">
   
   <title>Frontend Mentor | News homepage</title>
 
 
   
 </head>
-<body>
+<body >
   <header>
-    <nav>
+    <nav >
         <img src="assets/images/logo.svg" alt="icone 'w.'" id="iconeW">
         
         <div id="menu">
-          <img src="assets/images/icon-menu-close.svg" alt="xix" id="fecharMenu">
+          <div id="fecharMenu">
+            <img src="assets/images/icon-menu-close.svg" alt="xix" >
+          </div>
           <a href="#">Home</a>
           <a href="#">New</a>
           <a href="#">Popular</a>
           <a href="#">Trending</a>
           <a href="#">Categories</a>
         </div>
-        <img src="assets/images/icon-menu.svg" alt="icone menu" id="abrirMenu">
+        <div id="abrirMenu">
+          <img src="assets/images/icon-menu.svg" alt="icone menu">
+        </div>
     </nav>
   </header>
   <main>
     
     <section>
-      <img src="assets/images/image-web-3-desktop.jpg" alt="" id="ftgrande">
-      <img src="assets/images/image-web-3-mobile.jpg" alt="" id="ftpequena" > 
-      <h1>The Bright Future of Web 3.0?</h1>
-      <p>
-        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
-        But is it really fulfilling its promise?
-      </p>
-      <div id="leiamais">
-        <a href="#" >READ MORE</a>
-      </div>
+      <article>
+        <img src="assets/images/image-web-3-desktop.jpg" alt="ilustração de peças que se encaixam" id="ftgrande">
+        <img src="assets/images/image-web-3-mobile.jpg" alt="ilustração de peças que se encaixam" id="ftpequena" >
+        <aside id="web3">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <p>
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+            But is it really fulfilling its promise?
+          </p>
+          <div id="leiamais">
+            <a href="#">READ MORE</a>
+          </div>
+        </aside>
+      </article>
       
       <aside id="news">
         <h2>New</h2>
@@ -84,7 +93,7 @@
       </aside>
     </article>
   </main>  
-   
+  <script src="script.js"></script>
 </body>  
     
   

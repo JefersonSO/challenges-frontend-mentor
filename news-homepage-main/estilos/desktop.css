@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@media (min-width: 280px) and (max-width: 768px) {
-
-    * {
+@media screen and (min-width:768px)and (max-width: 1144px) {
+    
+     * {
         margin: 0%;
         padding: 0%;
         box-sizing: border-box;
@@ -38,14 +38,16 @@
     }
 
     nav #iconeW{
+        position: relative;
+        right: 110%;
         margin: 20px 20px 20px 0px;
         width: 44px;
-        align-self: flex-start;
+        float: left;
         
     }
 
     nav #abrirMenu{
-        
+        display: none;       
         justify-self: center;
         align-self: center;
         
@@ -56,78 +58,98 @@
     }
     /* meunu com as opções  */ 
     nav #menu {
-        display: none;
         margin: auto;
-        position: absolute;
-        left: 37.1vw;
-        
-        flex-direction: column;
-        justify-self: flex-end;
-        width: 238px;
-        height: 100%;
-        background-color: hsl(36, 100%, 99%); 
+        display: flex;
+        justify-self: center;
+        align-items: flex-end;
+        text-decoration: none;
+    
         
         
+        
+        
+        
+         
     }
 
 
     nav #menu a{
+        position: relative;
         margin: 13px 25px;
         text-decoration: none;
+        left : 91px;
         font-size: 1.2rem;
         color: black;
     }
 
     nav #fecharMenu{
+        display: none;
         width: 33px;
-        justify-self: center;
-        transition: 1s;
         align-self: flex-end;
         margin: 20px 20px 35px 20px;
-    }
-
-    nav #fecharMenu:hover{
-        cursor: pointer;
     }
 
    
 
     main{
-       
-        margin: auto;
-        width: 344px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    
-    section >article > #ftgrande{
-        display: none;
+    section{
+        display: flex;
+        flex-direction: row;
+        
     }
 
-    section >article > #ftpequena {
+    aside#web3 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 730px;
+        height: 211px;
+        
+        
+    }
+
+   
+    section > article > #ftgrande{
+        display: flex;
+        width: 730px;
+        height: 300px;
+    }
+
+    section > article > #ftpequena {
+        display: none;
         margin: auto;
         width: 344px;
         height: 300px;
         margin-top: 15px;
     }
 
-    section >article > #web3 > h1{
-        font-size: 2.3rem;
+    section > article > #web3 > h1{
+        float: left;
+        width: 360px;
+        font-size: 3.1rem;
         font-weight: 800;
-        line-height: 40px;
-        margin: 15px 0px;
+        line-height: 50px;
+        margin: 30px 0px;
     }
 
-    section >article > #web3 > p {
-        line-height: 30px;
-        margin: 15px 0px;
+    section > article > #web3 > p {
+        font-size: 1rem;
+        width: 360px;
+        float: right;
+        line-height: 25px;
+        margin: 30px 25px;
     }
 
 
-    section >article > #web3 > #leiamais{
+    #web3 > #leiamais{
+        position: absolute;
+        float: end;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -136,9 +158,11 @@
         height: 50px;
         margin: 15px 0px;
         text-align: center;
+        top : 140px;
+        right: 175px
     }
     
-    section >article > #web3 > #leiamais > a {
+    section > article > #web3 > #leiamais > a {
         
         text-decoration: none;
         font-size: 0.9rem;
@@ -154,10 +178,11 @@
 
     aside#news {
         background-color: hsl(240, 100%, 5%);
-        width: 100%;
-        height: 490px;
+        width: 350px;
+        height: 511px;
         color: hsl(36, 100%, 99%);
         margin: 65px 0px;
+        margin: 0px 20px;
         
     }
 
@@ -191,40 +216,58 @@
     }
     
     article#mais{
+        position: relative;
+        right: 10px;
+        width: 1100px;
+        height: 127px;
         display: flex;
-        flex-direction: column;
-
+        margin: 20px 0px;
+        justify-content: space-between;
+        
     }
-     
+
     article#mais > #t01 > img,
-    article#mais > #t02 > img,
-    article#mais > #t03 > img {
+    article#mais > #t02 > img {
         width: 100px;
-        margin-right: 10px;
+        height: 127px;
+        
+    }
+
+    article#mais > #t03 > img{
+        width: 100px;
+        height: 127px;
+        margin-left: 16px;
     }
 
     #t01, #t02, #t03 {
         display: flex;
-        margin: 17px 0px;
+        width: 370px;
+        
     }
 
     .texto{
-        padding: 10px;
+        
+        height: 127px;
+        padding: 0px 20px;
 
     }
 
     .texto > h2 {
-        font-size: 2.2rem;
+        font-size: 1.9rem;
         color: hsl(233, 8%, 79%);
 
     }
 
     .texto > h3{
-        margin-top: 10px;
+        font-size: 1rem;
+        margin: 10px 0px;
+        font-weight: 800;
+      
     }
 
     .texto > p {
-        margin-top: 10px;
+        font-size: 0.9rem;
+        line-height: 25px;
     }
 
 }
