@@ -1,4 +1,4 @@
-@media(min-width: 768px) and (max-width: 1440px){
+@media (min-width: 768px) and (max-width: 1440px){
 
 
 
@@ -40,5 +40,33 @@
         height: 512px;
     }
 
+    #sumary > #reaction, #memory,#verbal,#visual{
+        width: 268px;
+        height: 50px;
+        padding-left: 10px;
+        margin: 10px auto;
+        
+    }
+
+  
+
+    #sumary h1 {
+        font-size: 1.5rem;
+        margin: 40px 20px 20px 14%;
+    }
+
+    #sumary p {
+        
+       
+        
+    }
+    
+    input#continue {
+        width: 268px;
+        height: 56px;
+        margin: 35px  auto 45px ;
+        font-size: 1.2rem;
+    }
+    
 
 }
