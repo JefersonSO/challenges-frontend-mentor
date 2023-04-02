@@ -1,0 +1,44 @@
+@media(min-width: 768px) and (max-width: 1440px){
+
+
+
+
+    #card {
+        width: 736;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;   
+        box-shadow: 22px 22px 50px hsla(224, 30%, 27%, 0.123);  
+        border-radius: 28px;
+    }
+
+    #result {
+       
+        width: 368px;
+        height: 512px;
+
+
+    }
+     
+    #result > h1 {
+        position: relative;
+        bottom: 6%;
+        padding: 10px;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    #result h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 15px;
+
+    }
+
+    #sumary {
+        width: 368px;
+        height: 512px;
+    }
+
+
+}

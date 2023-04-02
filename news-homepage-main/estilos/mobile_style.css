@@ -78,6 +78,10 @@
         color: black;
     }
 
+    nav #menu a:hover{
+        color:hsl(35, 77%, 62%)
+    }
+
     nav #fecharMenu{
         width: 33px;
         justify-self: center;
@@ -148,7 +152,10 @@
 
     }
 
-
+    section >article > #web3 > #leiamais:hover{
+        cursor: pointer;
+        background-color: black;
+    }
  
    
 
@@ -161,7 +168,7 @@
         
     }
 
-    aside#news > h2{
+    aside#news > h1{
         font-size: 2.2rem;
         font-weight: 600;
         line-height: 40px;
@@ -170,10 +177,15 @@
 
     }
 
-    aside#news > h3 {
+    aside#news > h2 {
         font-size: 1.3rem;
         line-height: 30px;
         margin: 20px 18px 0px 18px ;
+    }
+
+    aside#news > h2:hover{
+        cursor: pointer;
+        color: hsl(35, 77%, 62%);
     }
 
     aside#news > p {
@@ -190,15 +202,15 @@
         
     }
     
-    article#mais{
+    section#mais{
         display: flex;
         flex-direction: column;
 
     }
      
-    article#mais > #t01 > img,
-    article#mais > #t02 > img,
-    article#mais > #t03 > img {
+    section#mais > #t01 > img,
+    section#mais > #t02 > img,
+    section#mais > #t03 > img {
         width: 100px;
         margin-right: 10px;
     }
@@ -213,14 +225,19 @@
 
     }
 
-    .texto > h2 {
+    .texto > h1 {
         font-size: 2.2rem;
         color: hsl(233, 8%, 79%);
 
     }
 
-    .texto > h3{
+    .texto > h2{
         margin-top: 10px;
+    }
+
+    .texto > h2:hover{
+        cursor: pointer;
+        color: hsl(35, 77%, 62%)
     }
 
     .texto > p {

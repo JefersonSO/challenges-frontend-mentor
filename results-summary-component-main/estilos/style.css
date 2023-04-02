@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap'); 
+
+@media all {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+    #result {
+        border-radius: 28px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    }
+
+    #result > h1 {
+        color: hsl(241, 100%, 89%);
+        
+    }
+
+    #result h2 {
+        color: hsl(221, 100%, 96%);  
+    }
+
+    #result p {
+        color: hsl(241, 100%, 89%);
+        text-align: justify;
+        text-align: center;
+        font-size: 1.1rem;
+        padding: 0px 60px;
+    }
+
+    #circulo{
+        width: 200px;
+        height: 200px;
+        background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+
+    #circulo p#pontuação {
+        
+        font-size: 4rem;
+        color: white;
+        font-weight: 800;
+        
+
+    }
+    
+
+     
+    #circulo p#of_100 {
+        color: rgba(250, 250, 250, 0.540);
+        font-size: 1rem;
+        
+        
+    }
+
+    #sumary {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      
+    }
+
+    #sumary > #reaction, #memory,#verbal,#visual{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: aquamarine;
+        border-radius: 10px;
+        padding-left: 15px;
+        
+    }
+
+    #sumary h1 {
+        margin: 40px auto 10px 50px;
+        font-size: 1.5rem;
+        color: hsl(224, 30%, 27%);
+    }
+
+    #sumary p {
+          
+        font-size: 1.2rem;
+       
+        
+    }
+
+    #sumary img {
+        position: relative;
+        top : 5px
+        
+        
+    }
+
+
+ 
+    #sumary #reaction{
+        background-color: hsla(0, 100%, 67%, 0.075);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 0, 0, 0.040) ;
+       
+    }
+
+    #sumary #reaction .p1 {
+        
+        color: hsl(0, 100%, 67%);
+        
+        
+
+    }
+    
+    #sumary #memory{
+        background-color: hsl(39, 100%, 56%, 0.075);
+        border-radius: 10px;
+        border: 1px solid hsl(39, 100%, 56%, 0.040) ;
+       
+    }
+
+
+    #sumary #memory .p1 {
+        color: hsl(39, 100%, 56%);
+        
+
+    }
+
+    #sumary #verbal{
+        background-color: hsl(166, 100%, 37%, 0.075);
+        border-radius: 10px;
+        border: 1px solid hsl(166, 100%, 37%, 0.040) ;
+       
+    }
+
+    #sumary #verbal .p1 {
+        color: hsl(166, 100%, 37%);
+        
+
+    }
+
+    #sumary #visual{
+        background-color: hsl(234, 85%, 45%, 0.075);
+        border-radius: 10px;
+        border: 1px solid hsl(234, 85%, 45%, 0.040) ;
+       
+    }
+
+    #sumary #visual .p1 {
+        color: hsl(234, 85%, 45%);
+        
+    }
+
+    .p2{
+       margin-right: 10px;
+       color: hsl(241, 100%, 89%);
+    }
+
+    .p2 >strong {
+        color: hsl(224, 30%, 27%);
+    }
+
+    input#continue {
+        width: 268px;
+        height: 50px;
+        margin: 20px  auto 45px ;
+        border-radius: 50px;
+        background-color:hsl(224, 30%, 27%);
+        border: 0px;
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    input#continue:hover {
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        cursor: pointer;
+    }
+
+
+
+}
+
+/* - Light red: hsl(0, 100%, 67%)
+- Orangey yellow: hsl(39, 100%, 56%)
+- Green teal: hsl(166, 100%, 37%)
+- Cobalt blue: hsl(234, 85%, 45%) */
