@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (min-width: 280px) and (max-width: 768px) {
+@media All and (min-width: 280px) and (max-width: 768px) {
 
     * {
         margin: 0%;
@@ -30,9 +30,10 @@
 
 
     nav {
-        
+        width: 344px;
         display: flex;
         justify-content: space-between;
+        margin: auto;
         
         
     }
@@ -211,7 +212,9 @@
     section#mais > #t01 > img,
     section#mais > #t02 > img,
     section#mais > #t03 > img {
-        width: 100px;
+        width: 120px;
+        height: 120px;
+        
         margin-right: 10px;
     }
 
@@ -221,18 +224,20 @@
     }
 
     .texto{
-        padding: 10px;
+        padding-left: 10px;
 
     }
 
     .texto > h1 {
-        font-size: 2.2rem;
+        margin-top: 0px;
+        font-size: 1.7rem;
         color: hsl(233, 8%, 79%);
 
     }
 
     .texto > h2{
-        margin-top: 10px;
+        font-size: 1.2rem;
+        margin-top: 0px;
     }
 
     .texto > h2:hover{
