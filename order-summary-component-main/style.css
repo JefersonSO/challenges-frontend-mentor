@@ -1,0 +1,144 @@
+   @charset "UTF-8";
+    
+   
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+   }
+
+   body {
+      background-color: hsl(225, 100%, 94%);
+      background-image: url(images/pattern-background-mobile.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: top;
+      
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+
+   }
+    
+   main {
+      margin: auto;
+      width: 327px;
+      height: 567px;
+      background-color: white;border-radius: 15px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 0px 15px 10px hsla(224, 23%, 55%, 0.11);
+   }
+
+   main > img {
+      width: 100%;
+   }
+    
+   h1 {
+     
+      margin: 28px 42px 20px 42px;
+      font-size: 22px;
+      font-weight: 800;
+      color: hsl(223, 47%, 23%);
+   }
+
+   main > p {
+      
+      font-size: 13px;
+      margin: 0px 42px 28px 42px;
+      color: hsl(224, 23%, 55%);
+      line-height: 1.5rem;
+      font-weight: 700;
+   }
+
+   main > a {
+      text-decoration: none;
+      padding-top: 0px;
+      color: hsl(224, 23%, 55%) ;
+      font-size: 14px;
+      font-weight: 800;
+      
+   } 
+
+   main > a:hover {
+      color: hsl(223, 47%, 23%);
+   } 
+
+   section {
+      width: 279px;
+      height: 79px;
+      display: flex;
+      align-items: center;
+      background-color:  hsl(225, 100%, 98%);
+      margin: 0px 24px 28px 24px ;
+      border-radius: 10px;
+      color: hsl(223, 47%, 23%);
+
+
+   }
+
+   section > img {
+      width: 48px;
+      height: 48px;
+      margin-left: 16px;
+      
+   }
+
+   section > #preco {
+      margin: 25px ;
+
+   }
+
+   section > #preco > h2 {
+      padding-bottom: 2px;
+      font-size: 14px;
+      font-weight: 800;
+      
+   }
+
+   section > #preco > p {
+      padding-top: 2px;
+      font-size: 16px;
+      color: hsl(224, 23%, 55%);
+      font-weight: 700;
+      
+   }
+
+
+   section > a {
+      font-size: 12px;
+      margin-left: 15px;
+   } 
+
+   section > a:hover{
+      color: #766cf1;
+      text-decoration: none;
+   }
+
+   input {
+      background-color: hsl(245, 75%, 52%);
+      width: 279px;
+      height: 50px;
+      border-radius: 10px;
+      border: 0;
+      font-size: 14px;
+      font-weight: 700;
+      color: white;
+      box-shadow: 0px 15px 10px hsla(224, 23%, 55%, 0.253);
+      margin-bottom: 20px;
+
+   }
+
+   input:hover {
+      background-color: #766cf1;
+      cursor: pointer;
+   }
+
+  
+
+    

@@ -1,0 +1,106 @@
+@media (min-width: 1440px){
+
+    
+    body {
+        background-color: hsl(225, 100%, 94%);
+        background-image: url(images/pattern-background-desktop.svg);
+        background-size: contain;
+        background-position: top;
+
+    
+  
+     }
+      
+     main {
+        
+        width: 450px;
+        height: 700px;
+        
+        
+     }
+  
+     main > img {
+        width: 100%;
+     }
+      
+     h1 {
+       
+        margin: 53px 79px 26px 79px;
+        font-size: 22px;
+        
+       
+     }
+  
+     main > p {
+        
+        font-size: 14px;
+        margin: 0px 79px 28px 79px;
+        line-height: 1.5rem;
+        
+     }
+  
+     main > a {
+        padding-top: 0px;
+        
+        font-size: 14px;
+       
+        
+     } 
+  
+     main > a:hover {
+        color: hsl(223, 47%, 23%);
+     } 
+  
+     section {
+        width: 354px;
+        height: 95px;
+        margin: 0px 48px 35px 48px ;
+        border-radius: 10px;
+        
+  
+  
+     }
+  
+     section > img {
+        width: 48px;
+        height: 48px;
+        margin-left: 16px;
+        
+     }
+  
+     section > #preco {
+        margin: 25px ;
+  
+     }
+  
+     section > #preco > h2 {
+        padding-bottom: 2px;
+        font-size: 15px;
+        
+        
+     }
+  
+     section > #preco > p {
+        padding-top: 2px;
+        font-size: 18px;
+       
+     }
+  
+  
+     section > a {
+        font-size: 14px;
+        margin-left: 65px;
+     } 
+  
+      
+     input {
+        width: 353px;
+        height: 50px;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0px 48px 20px 48px
+  
+     }
+  
+  
+ }
