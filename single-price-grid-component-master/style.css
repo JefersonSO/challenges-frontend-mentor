@@ -1,0 +1,294 @@
+@charset "UTF-8" ;
+
+
+
+:root {
+     --Cyano: hsl(179, 62%, 43%);
+     --Yellow: hsl(71, 73%, 54%);
+     --Light_Gray: hsl(204, 43%, 93%);
+     --Grayish_Blue: hsl(218, 22%, 67%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Light_Gray);
+}
+
+main {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: aqua;
+    box-shadow: 0px 12px 56px rgba(0, 0, 0, 0.226);
+    transition: 0.2s;    
+}
+
+#s1 {
+    background-color: white;
+}
+
+#s1 > h1 {
+    color: var(--Cyano);
+    font-weight: 700;
+}
+
+#s1 > h2 {
+    color: var(--Yellow);
+    font-weight: 700;
+}
+
+#s1 > p {
+    
+    color: var(--Grayish_Blue);
+}
+
+#s2 {
+    background-color: var(--Cyano);
+    color: var(--Light_Gray);
+}
+
+#s2 > h1 {
+   font-weight: 700;
+}
+
+#s2 > article {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+#s2 > article > #preco {
+    font-weight: 700;
+}
+
+#s2 > article > #porMes {
+    padding-left: 13px;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+
+
+#s2 > input {
+    border-radius: 5px;
+    background-color: var(--Yellow);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.137);
+}
+
+#s3 {
+    background-color: #4ABEBD;
+}
+
+
+#s3 > h1 {
+    color: var(--Light_Gray);
+    font-weight: 700;
+}
+
+#s3 > p {
+    color: rgba(255, 255, 255, 0.555);
+    
+}
+
+
+
+
+@media (min-width: 280px){
+
+    body {
+        background-color: var(--Light_Gray);
+    }
+
+    main {
+        width: 311px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 269px 228px 228px;
+    }      
+
+    #s1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-color: white;
+    }
+
+    #s1 > h1 {
+        margin: 31px 24px 27px 24px;
+        font-size: 20px;
+    }
+
+    #s1 > h2 {
+        margin: 0px 24px 27px 24px;
+        font-size: 15px;
+        color: var(--Yellow);
+        font-weight: 700;
+    }
+      
+    #s1 > p {
+        margin: 0px 24px 36px 24px;
+        line-height: 23px;
+        font-size: 14px;
+    }
+
+    #s2 {
+        background-color: var(--Cyano);
+        color: var(--Light_Gray);
+    }
+    
+    #s2 > h1 {
+        margin: 27px 24px 0px 24px;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    
+    #s2 > article {
+        display: flex;
+        align-items: center;
+        margin: 15px 24px 0px 24px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    
+    #s2 > article > #preco {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+    
+    #s2 > article > #porMes {
+        padding-left: 13px;
+        color: rgba(255, 255, 255, 0.555);
+    }
+    
+    #s2 >  p {
+        margin: 5px 24px 28px 24px;
+    }
+    
+    #s2 > input {
+        width: 263px;
+        height: 48px;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        margin: 0px 24px 3px 24px; 
+    }
+
+        
+    
+    #s3 > h1 {
+        margin: 27px 24px 0px 24px;
+        font-size: 17px;
+    }
+    
+    #s3 > p {
+        margin: 15px 108px 0px 24px;
+        line-height: 20px;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.555);  
+    }
+}
+
+
+@media(min-width:992px){
+    main {
+        width: 635px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 216px 259px;      
+        
+    }
+    
+    #s1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+       
+    }
+    
+    #s1 > h1 {
+        margin: 44px 40px 28px 40px;
+        font-size: 23px;
+        font-weight: 700;
+    }
+    
+    #s1 > h2 {
+        margin: 0px 40px 15px 40px;
+        font-size: 17px;
+        
+    }
+    
+    #s1 > p {
+        margin: 0px 40px 44px 40px;
+        line-height: 25px;
+        font-size: 16px;
+    }
+    
+    
+    
+    #s2 > h1 {
+        margin: 45px 40px 0px 40px;
+        font-size: 17px;
+       
+        
+    }
+    
+    #s2 > article {
+        display: flex;
+        align-items: center;
+        margin: 15px 40px 0px 40px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    
+    #s2 > article > #preco {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    
+    #s2 > article > #porMes {
+        padding-left: 13px;   
+         
+    }
+    
+    #s2 >  p {
+        margin: 15px 40px 28px 40px;
+    }
+    
+    #s2 > input {
+        width: 238px;
+        height: 48px;
+        border-radius: 5px;
+        font-size: 16px;
+        margin: 0px 40px 3px 40px; 
+       
+    }
+    
+    
+    #s3 > h1 {
+        margin: 44px 40px 20px 40px;
+        font-size: 17px;
+        
+    }
+    
+    #s3 > p {
+        margin: 15px 115px 0px 40px;
+        line-height: 20px;
+        font-size: 13px;
+        
+        
+    }
+    
+    
+}
