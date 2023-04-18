@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+:root{
+    --oneBackground: hsl(31, 77%, 52%);
+    --twoBackground: hsl(184, 100%, 22%);
+    --threeBackground: hsl(179, 100%, 13%);
+    --paragraph: hsla(0, 0%, 100%, 0.75);
+    --background_headings_buttons: hsl(0, 0%, 95%);
+
+}
+
+.allCenter {
+    
+
+}
+
+* {margin : 0; padding: 0; box-sizing: border-box; font-size: 15px; border: none; outline: none; font-family: 'Lexend Deca', sans-serif; font-weight: 400; transition: 0.6s;
+}
+ 
+
+body { width : 100%; height : 100%; background-color: var(--background_headings_buttons);}
+
+main {
+    width: 87.3%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr)  ;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#one {
+    background-color: var(--oneBackground);
+}
+
+#one > input {
+    color: var(--oneBackground);
+}
+
+#two {
+    background-color: var(--twoBackground);
+}
+#two > input {
+    color: var(--twoBackground);
+}
+
+#three {
+    background-color: var(--threeBackground);
+}
+
+#three > input {
+    color: var(--threeBackground);
+      
+}
+
+img, h1, p, input {
+    margin-left: 3.3rem;
+    margin-right: 3.3rem;
+}
+
+img {
+    width: 4.3rem;
+    height:2.6rem;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Teko';
+    color: var(--background_headings_buttons);
+    margin-top: 42px;
+}
+
+p{  
+    font-size: 1rem;
+    color: var(--background_headings_buttons);
+    margin-top: 10px;
+    line-height: 1.3rem;
+}
+
+input {
+    width: 9.7rem ;
+    height: 3.2rem;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    font-size: 1rem;
+    transition: 0.4s;
+}
+
+#one >input:hover, #two >input:hover, #three >input:hover {
+    cursor: pointer;
+    border: 2px solid var(--background_headings_buttons);
+    background-color: transparent;
+    color:var(--background_headings_buttons)
+    
+}
+
+/*-------tablets------------*/
+@media only screen and (min-width:768px) and (max-width:992px){
+    html {
+       font-size: 25px;
+       
+    }
+
+    
+}
+
+/*-------desktop------------*/
+@media only screen and (min-width:992px){
+
+    html{
+        font-size: 12px;
+    }
+ 
+     body {
+       width: 100vw; height: 100vh;
+           
+    }
+ 
+    main {
+        width: 63.89%;
+        height:62.5%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-template-rows: 1fr ;
+        
+    }
+
+    img, h1, p, input {
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+    }
+    
+    
+    p {
+        line-height: 1.5rem;
+    }
+
+    input {
+        margin-top: 25%;
+    }
+     
+
+}
+
+/*--------talas grandes-----------*/
+@media screen and (min-width: 1200px) {
+
+
+    html{
+       font-size: 15px;
+    }
+
+    body {
+      width: 100vw; height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main {
+        width: 63.89%;
+        height:62.5%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-template-rows: 1fr ;
+       
+    }
+
+    img, h1, p, input {
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+    }
+    
+     
+    p {
+        line-height: 1.5rem;
+    }
+
+    input {
+        margin-top: 25%;
+    }
+    
+}
