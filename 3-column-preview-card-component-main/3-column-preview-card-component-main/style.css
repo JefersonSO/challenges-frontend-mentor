@@ -119,35 +119,36 @@ input {
         font-size: 12px;
     }
  
-     body {
-       width: 100vw; height: 100vh;
-           
-    }
- 
-    main {
-        width: 63.89%;
-        height:62.5%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr) ;
-        grid-template-rows: 1fr ;
-        
-    }
-
-    img, h1, p, input {
-        margin-left: 3.2rem;
-        margin-right: 3.2rem;
-    }
-    
-    
-    p {
-        line-height: 1.5rem;
-    }
-
-    input {
-        margin-top: 25%;
-    }
-     
+    body {
+        width: 100vw; height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      main {
+          width: 63.89%;
+          height:62.5%;
+          margin: auto;
+          display: grid;
+          grid-template-columns: repeat(3, 1fr) ;
+          grid-template-rows: 1fr ;
+         
+      }
+  
+      img, h1, p, input {
+          margin-left: 3.2rem;
+          margin-right: 3.2rem;
+      }
+      
+       
+      p {
+          line-height: 1.5rem;
+      }
+  
+      input {
+          margin-top: 25%;
+      }
 
 }
 
