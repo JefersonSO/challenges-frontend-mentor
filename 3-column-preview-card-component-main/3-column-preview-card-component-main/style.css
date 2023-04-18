@@ -168,8 +168,8 @@ input {
     }
 
     main {
-        width: 63.89%;
-        height:62.5%;
+        width: 920px;
+        height:500px;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr) ;
